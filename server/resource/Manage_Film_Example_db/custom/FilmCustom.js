@@ -11,6 +11,9 @@ const properties = require('../../../properties.js');
  * SCHEMA DB Film
  * 
 	{
+		bellezza: {
+			type: 'Number'
+		},
 		genre: {
 			type: 'String',
 			enum : ["Action","Crime","Fantasy","Horror"], 

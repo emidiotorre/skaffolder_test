@@ -27,6 +27,7 @@ import { FilmMaker } from '../film-maker';
 export class FilmBase {
 
     public _id: string;
+    public bellezza?: Number;
     public genre?: String;
     public title: String;
     public year?: Number;

@@ -60,6 +60,9 @@ db_Manage_Film_Example_db_schema.Actor = new mongoose.Schema({
   * Film
   */
 db_Manage_Film_Example_db_schema.Film = new mongoose.Schema({
+	bellezza: {
+		type: 'Number'
+	},
 	genre: {
 		type: 'String',
 		enum : ["Action","Crime","Fantasy","Horror"], 
